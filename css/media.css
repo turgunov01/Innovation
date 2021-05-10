@@ -1,0 +1,626 @@
+/* @media (max-width: 1440px) {} */
+@media (max-width: 1366px) {
+    .designers_img {
+        max-width: 500px;
+        width: 100%;
+        margin-top: 20%;
+    }
+
+    .card {
+        max-width: 270px;
+        width: 100%;
+    }
+
+    .for_border {
+        margin: 10px;
+    }
+}
+
+/* @media (max-width: 1320px) {} */
+/* @media (max-width: 1290px) {} */
+@media (max-width: 1140px) {
+    .progress_txt {
+        font-size: 18px;
+        width: 180px;
+    }
+
+    .first_line {
+        margin-right: 10px;
+    }
+
+    .progress_container {
+        column-gap: 50px;
+    }
+
+    .red_line::before {
+        width: 450px;
+    }
+
+    .orange_line::before {
+        width: 450px;
+    }
+
+    .blue_line::before {
+        width: 450px;
+    }
+
+    .lime_line::before {
+        width: 450px;
+    }
+
+    .red_line::after {
+        width: 380px;
+    }
+
+    .orange_line::after {
+        width: 400px;
+    }
+
+    .blue_line::after {
+        width: 380px;
+    }
+
+    .lime_line::after {
+        width: 350px;
+    }
+
+    .progress_txt {
+        font-size: 18px;
+        width: 200px;
+    }
+
+    .cards {
+        column-gap: 30px;
+        /* height: 500px; */
+    }
+
+    .services__about {
+        max-width: 220px;
+        width: 100%;
+    }
+
+    .service_cards {
+        column-gap: 30px
+    }
+
+    .payments_card {
+        width: 300px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .red_icon_1 {
+        display: none;
+    }
+
+    .services__card {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .btn-primary {
+        display: none;
+    }
+
+    .footer_container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .card:hover {
+        transform: scale(1.2);
+        background: rgba(255, 0, 0, 0.192);
+    }
+}
+
+@media (max-width: 992px) {
+    .card:hover {
+        transform: scale(0.8);
+    }
+
+    .services__card {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .cards {
+        column-gap: 20px;
+    }
+
+    .progress_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lines {
+        width: unset;
+        margin-top: 30px;
+    }
+
+    .target_audience {
+        font-size: 60px;
+    }
+
+    .service_cards {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        row-gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .payment_cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+
+    .services__card {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .payments_card {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .businessmans {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 50px;
+    }
+
+    .footer_container {
+        flex-wrap: wrap;
+    }
+
+    .service_cards {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        row-gap: 30px;
+    }
+
+    .target_audience {
+        font-size: 40px;
+    }
+
+    .services__image {
+        max-width: 320px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .cards {
+        flex-wrap: wrap;
+        margin-bottom: 300px;
+        row-gap: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card:hover {
+        transform: unset;
+    }
+
+    .card {
+        transform: perspective(1140px)rotateX(45deg);
+        transition: 1s;
+    }
+
+    .header_btn {
+        display: none;
+    }
+
+    .header_list {
+        display: none;
+    }
+
+    /* .nav_menu {
+    margin-left: 500px;
+    position: relative;
+    width: 45px;
+    height: 45px;
+}
+.nav_line {
+    position: relative;
+    background: #000;
+    display: inline-block;
+    width: 100%;
+    height: 4px;
+}
+.nav_line::before  {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: black;
+    top: 10px;
+}
+.nav_line::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: black;
+    top: -10px;
+}
+.nav_line:hover .nav_line::after  {
+    transform: rotate(45deg);
+} */
+}
+
+@media (max-width: 736px) {
+    .progress_title {
+        font-size: 43px;
+        font-weight: 600;
+        max-width: 400px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .services__card {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .display-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .rule_of {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .cards {
+        row-gap: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        max-width: 500px;
+        width: 100%;
+        height: 500px;
+    }
+}
+
+/* @media (max-width: 734px) {} */
+@media (max-width: 684px) {
+    .footer_container {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .company_name {
+        text-align: center;
+    }
+
+    .services__card {
+        max-width: 300px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 667px) {
+    .first_row_link {
+        max-width: 200px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .change_width {
+        animation: none;
+    }
+
+    .card {
+        max-width: 400px;
+        width: 100%;
+        height: 400px;
+    }
+
+    
+}
+
+@media (max-width: 414px) {
+    .target_audience {
+        text-align: center;
+    }
+
+    body {
+        text-align: center;
+    }
+
+    .card {
+        max-width: 300px;
+        width: 100%;
+        margin-left: 100px;
+    }
+
+    .service_txt {
+        margin-left: 100px;
+    }
+
+    .template_title {
+        font-size: 35px;
+    }
+
+    .change_width {
+        margin: 0 15%;
+    }
+
+    .target_audience {
+        margin-left: 100px;
+    }
+
+    .about_txt {
+        margin-left: 100px;
+        font-size: 14px;
+    }
+
+    .lines {
+        margin-left: -20px;
+    }
+
+    .solve_problem {
+        margin-left: 100px;
+    }
+
+    .solve_title {
+        font-size: 30px;
+    }
+
+    .solve_txt {
+        font-size: 14px;
+    }
+
+    .payments {
+        margin-left: 100px;
+    }
+
+    .offer_commit {
+        font-size: 16px;
+    }
+
+    .for_border {
+        margin-left: 100px;
+    }
+
+    .businessmans {
+        row-gap: 100px;
+    }
+
+    .feedback {
+        margin-left: 100px;
+        padding-bottom: 30px;
+    }
+
+    .job {
+        margin-top: 30px;
+    }
+
+    .footer_container {
+        width: 100%;
+    }
+
+    .change_bg {
+        width: 121%;
+    }
+}
+
+@media (max-width: 412px) {
+    .change_bg {
+        width: 121.8%;
+    }
+}
+
+@media (max-width: 375px) {
+    .change_bg {
+        width: 134%;
+    }
+
+    .for_border {
+        border: none;
+        margin-left: 120px;
+    }
+
+    .line_side {
+        display: none;
+    }
+
+    /* .feedback  {
+        margin-left: 120px;
+    } */
+    .feedback_title {
+        font-size: 22px;
+    }
+
+    .payment_cards {
+        /* margin-left: 20px;; */
+        padding-left: 20px;
+    }
+
+    .offer_btn {
+        flex-wrap: wrap;
+    }
+
+    .offer_commit {
+        font-size: 18px;
+    }
+
+    /* .payment_txt_part {
+        margin-left: 30px   ;
+    } */
+    .price_title {
+        font-size: 25px;
+    }
+
+    .services__about {
+        max-width: 170px;
+    }
+
+    .services__about-title {
+        font-size: 20px;
+    }
+
+    /* .service_cards {
+        margin-left: 30px;
+    } */
+    .solve_txt_part {
+        margin-left: 30px;
+    }
+
+    .main {
+        margin-left: 20px;
+    }
+
+    .designers_img {
+        width: 90%;
+    }
+
+    .progress_container {
+        margin-left: -10px;
+    }
+
+    .template_txt {
+        font-size: 14px;
+    }
+
+    .template_title {
+        font-size: 26px;
+    }
+
+    .target_audience {
+        font-size: 33px;
+        text-align: justify;
+    }
+
+    .change_width {
+        margin: 0 20%;
+    }
+
+    .about_txt {
+        display: none;
+    }
+}
+
+@media (max-width: 360px) {
+    .change_bg {
+        width: 142%;
+    }
+
+    /* body {
+        margin-left: 20px; */
+        
+.payment_card {
+    overflow: scroll;
+}
+
+.solve_problem {
+    margin-left: 120px;
+}
+
+.services__image::after {
+    height: 90%;
+}
+
+.services__img {
+    height: 90%;
+}
+
+.services__about {
+    height: 300px;
+    width: 100%;
+}
+
+.solve_title {
+    margin-left: -10px;
+}
+
+.solve_txt {
+    display: none;
+}
+
+.cards {
+    row-gap: 10px;
+    margin-left: 20px;
+}
+
+.target_audience {
+    display: none;
+    background: url(../img/We\ target\ the\ audience\ with\ our\ ideas..png)/cover;
+}
+
+.change_width {
+    margin: 0 7%;
+    width: 400px;
+}
+
+}
+@media (max-width: 320px) {
+    body {
+        width: 100%;
+        margin: 0 -30px;
+    }
+    
+    .cards {
+        width: 128%;
+    }
+    
+ 
+    .services__card {
+        display: flex;
+        align-items: center;
+        overflow: auto; 
+        
+    }
+    
+    .service_cards {
+        width: 160%;
+    }
+    
+    .services__about {
+        width: 77%;
+        margin-left: 10px;
+    }
+    .analitycs_icon {
+        padding: unset;
+        width: 50px;
+        height: 50px;
+        background: none;
+    }
+    .payments {
+        width: 100%;
+    }
+    .clients {
+        width: 150%;
+    }
+    .change_bg {
+        width: 166%;
+    }
+    .card {
+        height: 300px;
+    }
+    .service_txt {
+        width: 100%;
+    }
+    .logo_text {
+        margin-left: 50px;
+    }
+    .lines {
+         margin-left: 0;
+         width: 100%;   
+    }
+}
